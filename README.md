@@ -3,10 +3,11 @@
 > This repository contains default textures, models & blockstates of Minecraft Bedrock Edition.
 > Please use the branch button to switch trough Minecraft versions.
 
-- This repository is only here to help the Minecraft community, we don't intend to redistribute the assets or make money with it.
-- This repository allows the Compliance Team to access Minecraft default assets from anywhere, in a simple and centralized way.
+- This repository is only here to help the Minecraft community, there is no intention to redistribute the assets or to make money with it.
+- This repository allows the Compliance Team to access Minecraft's default assets from anywhere, in a simple and centralized way.
 
-> All credits goes to [Mojang](https://github.com/Mojang) (Their [Website](https://www.minecraft.net/) & [Terms](https://account.mojang.com/terms))
+**All assets hosted on this repository belong to [Mojang](https://github.com/Mojang) © 2009-2021. "Minecraft" is a trademark of Mojang AB.**
+([Website](https://www.minecraft.net/) & [Terms](https://account.mojang.com/terms))
 
 # Supported versions:
 - [1.17.0](https://github.com/CompliBot/Default-Bedrock/tree/1.17.0)
