@@ -1,0 +1,18 @@
+[
+  "textures/blocks/crafter_west_triggered.png",
+  "textures/blocks/crafter_bottom.png",
+  "textures/blocks/crafter_east.png",
+  "textures/blocks/crafter_east_crafting.png",
+  "textures/blocks/crafter_east_triggered.png",
+  "textures/blocks/crafter_north.png",
+  "textures/blocks/crafter_north_crafting.png",
+  "textures/blocks/crafter_south.png",
+  "textures/blocks/crafter_south_triggered.png",
+  "textures/blocks/crafter_top.png",
+  "textures/blocks/crafter_top_crafting.png",
+  "textures/blocks/crafter_top_triggered.png",
+  "textures/blocks/crafter_west.png",
+  "textures/blocks/crafter_west_crafting.png",
+  "textures/entity/breeze/breeze.png",
+  "textures/entity/wind_charge.png"
+]
