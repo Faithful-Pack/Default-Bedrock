@@ -5027,6 +5027,21 @@
     },
     "red_nether_brick_wall": {
       "textures": "textures/blocks/red_nether_brick"
+    },
+    "flattened_sponge": {
+      "textures": "textures/blocks/sponge"
+    },
+    "wet_sponge": {
+      "textures": "textures/blocks/sponge_wet"
+    },
+    "flattened_tnt_top": {
+      "textures": "textures/blocks/tnt_top"
+    },
+    "flattened_tnt_bottom": {
+      "textures": "textures/blocks/tnt_bottom"
+    },
+    "flattened_tnt_side": {
+      "textures": "textures/blocks/tnt_side"
     }
   }
 }
