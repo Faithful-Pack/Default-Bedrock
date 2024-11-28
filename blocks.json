@@ -28,7 +28,7 @@
       "textures" : "acacia_sign"
    },
    "acacia_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "acacia_leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -155,6 +155,7 @@
       }
    },
    "azalea_leaves" : {
+      "ambient_occlusion_exponent" : 0.80,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -163,6 +164,7 @@
       "textures" : "azalea_leaves"
    },
    "azalea_leaves_flowered" : {
+      "ambient_occlusion_exponent" : 0.80,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -385,7 +387,7 @@
       "textures" : "birch_sign"
    },
    "birch_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "birch_leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -966,6 +968,7 @@
       "textures" : "cherry_planks"
    },
    "cherry_leaves" : {
+      "ambient_occlusion_exponent" : 0.80,
       "sound" : "cherry_leaves",
       "textures" : "cherry_leaves"
    },
@@ -1069,7 +1072,7 @@
       }
    },
    "chiseled_red_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -1081,8 +1084,12 @@
          "up" : "flattened_redsandstone_top"
       }
    },
+   "chiseled_resin_bricks" : {
+      "sound" : "resin_brick",
+      "textures" : "chiseled_resin_bricks"
+   },
    "chiseled_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -1126,6 +1133,10 @@
       "isotropic" : true,
       "sound" : "gravel",
       "textures" : "clay"
+   },
+   "closed_eyeblossom" : {
+      "sound" : "eyeblossom",
+      "textures" : "closed_eyeblossom"
    },
    "coal_block" : {
       "sound" : "stone",
@@ -1470,7 +1481,7 @@
       "textures" : "crimson_sign"
    },
    "crying_obsidian" : {
-      "brightness_gamma" : 2.0,
+      "ambient_occlusion_exponent" : 2.0,
       "isotropic" : true,
       "sound" : "stone",
       "textures" : "crying_obsidian"
@@ -1491,7 +1502,7 @@
       "textures" : "cut_copper"
    },
    "cut_red_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -1512,7 +1523,7 @@
       }
    },
    "cut_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -1632,7 +1643,7 @@
       "textures" : "darkoak_sign"
    },
    "dark_oak_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "big_oak_leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -2381,11 +2392,11 @@
       "textures" : "glow_item_frame"
    },
    "glow_lichen" : {
-      "sound" : "grass",
+      "sound" : "glow_lichen",
       "textures" : "glow_lichen"
    },
    "glowingobsidian" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 1.0,
       "sound" : "stone",
       "textures" : "glowing_obsidian"
    },
@@ -2795,7 +2806,7 @@
       "textures" : "jungle_sign"
    },
    "jungle_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "jungle_leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -2905,7 +2916,7 @@
       }
    },
    "leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -2915,7 +2926,7 @@
       "textures" : "leaves"
    },
    "leaves2" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "leaves_carried2",
       "isotropic" : {
          "down" : true,
@@ -3396,7 +3407,7 @@
       "textures" : "mangrove_sign"
    },
    "mangrove_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "mangrove_leaves_carried",
       "sound" : "grass",
       "textures" : "mangrove_leaves"
@@ -3590,7 +3601,7 @@
       }
    },
    "nether_brick" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 1.0,
       "sound" : "nether_brick",
       "textures" : "nether_brick"
    },
@@ -3668,7 +3679,7 @@
       "textures" : "sign"
    },
    "oak_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "oak_leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -3714,7 +3725,7 @@
       }
    },
    "obsidian" : {
-      "brightness_gamma" : 2.0,
+      "ambient_occlusion_exponent" : 2.0,
       "isotropic" : true,
       "sound" : "stone",
       "textures" : "obsidian"
@@ -3726,6 +3737,11 @@
          "side" : "ochre_froglight_side",
          "up" : "ochre_froglight_top"
       }
+   },
+   "open_eyeblossom" : {
+      "carried_textures" : "open_eyeblossom_carried",
+      "sound" : "eyeblossom",
+      "textures" : "open_eyeblossom"
    },
    "orange_candle" : {
       "carried_textures" : "orange_candle_carried",
@@ -3894,6 +3910,7 @@
       "textures" : "pale_oak_planks"
    },
    "pale_oak_leaves" : {
+      "ambient_occlusion_exponent" : 0.80,
       "sound" : "grass",
       "textures" : "pale_oak_leaves"
    },
@@ -4542,7 +4559,7 @@
       }
    },
    "red_nether_brick" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 1.0,
       "sound" : "nether_brick",
       "textures" : "red_nether_brick"
    },
@@ -4555,7 +4572,7 @@
       "textures" : "red_nether_brick_slab"
    },
    "red_nether_brick_stairs" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 1.0,
       "sound" : "nether_brick",
       "textures" : "red_nether_brick"
    },
@@ -4564,13 +4581,13 @@
       "textures" : "red_nether_brick_wall"
    },
    "red_sand" : {
-      "brightness_gamma" : 0.550,
+      "ambient_occlusion_exponent" : 0.550,
       "isotropic" : true,
       "sound" : "sand",
       "textures" : "red_sand"
    },
    "red_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -4693,7 +4710,37 @@
    "reserved6" : {
       "textures" : "missing_tile"
    },
+   "resin_block" : {
+      "sound" : "resin",
+      "textures" : "resin_block"
+   },
+   "resin_brick_double_slab" : {
+      "sound" : "resin_brick",
+      "textures" : "resin_bricks"
+   },
+   "resin_brick_slab" : {
+      "sound" : "resin_brick",
+      "textures" : "resin_bricks"
+   },
+   "resin_brick_stairs" : {
+      "sound" : "resin_brick",
+      "textures" : "resin_bricks"
+   },
+   "resin_brick_wall" : {
+      "sound" : "resin_brick",
+      "textures" : "resin_bricks"
+   },
+   "resin_bricks" : {
+      "sound" : "resin_brick",
+      "textures" : "resin_bricks"
+   },
+   "resin_clump" : {
+      "carried_textures" : "resin_clump_carried",
+      "sound" : "resin",
+      "textures" : "resin_clump"
+   },
    "respawn_anchor" : {
+      "ambient_occlusion_exponent" : 2.0,
       "sound" : "metal",
       "textures" : {
          "down" : "respawn_anchor_bottom",
@@ -4714,13 +4761,13 @@
       }
    },
    "sand" : {
-      "brightness_gamma" : 0.550,
+      "ambient_occlusion_exponent" : 0.550,
       "isotropic" : true,
       "sound" : "sand",
       "textures" : "flattened_sand"
    },
    "sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -4919,7 +4966,7 @@
       "textures" : "stair_smooth_quartz_block"
    },
    "smooth_red_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -4944,7 +4991,7 @@
       "textures" : "smooth_red_sandstone"
    },
    "smooth_sandstone" : {
-      "brightness_gamma" : 0.70,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : {
          "down" : true,
          "up" : true
@@ -5001,13 +5048,13 @@
       }
    },
    "snow" : {
-      "brightness_gamma" : 0.450,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : true,
       "sound" : "snow",
       "textures" : "snow"
    },
    "snow_layer" : {
-      "brightness_gamma" : 0.450,
+      "ambient_occlusion_exponent" : 1.0,
       "isotropic" : true,
       "sound" : "snow",
       "textures" : "snow"
@@ -5090,7 +5137,7 @@
       "textures" : "spruce_sign"
    },
    "spruce_leaves" : {
-      "brightness_gamma" : 0.80,
+      "ambient_occlusion_exponent" : 0.80,
       "carried_textures" : "spruce_leaves_carried",
       "isotropic" : {
          "down" : true,
@@ -5462,6 +5509,7 @@
       "textures" : "suspicious_gravel"
    },
    "suspicious_sand" : {
+      "ambient_occlusion_exponent" : 0.550,
       "sound" : "suspicious_sand",
       "textures" : "suspicious_sand"
    },
@@ -5624,6 +5672,7 @@
    },
    "turtle_egg" : {
       "carried_textures" : "turtle_egg_carried",
+      "sound" : "turtle_egg",
       "textures" : "turtle_egg"
    },
    "twisting_vines" : {
