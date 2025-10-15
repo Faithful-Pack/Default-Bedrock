@@ -45,6 +45,10 @@
          "up" : "acacia_log_top"
       }
    },
+   "acacia_planks" : {
+      "sound" : "wood",
+      "textures" : "acacia_planks"
+   },
    "acacia_pressure_plate" : {
       "sound" : "wood",
       "textures" : "acacia_planks"
@@ -54,7 +58,7 @@
       "textures" : "acacia_sapling"
    },
    "acacia_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "acacia_shelf"
    },
    "acacia_slab" : {
@@ -258,7 +262,7 @@
       "textures" : "bamboo_sapling"
    },
    "bamboo_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "bamboo_shelf"
    },
    "bamboo_slab" : {
@@ -412,6 +416,10 @@
          "up" : "birch_log_top"
       }
    },
+   "birch_planks" : {
+      "sound" : "wood",
+      "textures" : "birch_planks"
+   },
    "birch_pressure_plate" : {
       "sound" : "wood",
       "textures" : "birch_planks"
@@ -421,7 +429,7 @@
       "textures" : "birch_sapling"
    },
    "birch_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "birch_shelf"
    },
    "birch_slab" : {
@@ -942,6 +950,7 @@
       }
    },
    "chain" : {
+      "carried_textures" : "chain_carried",
       "sound" : "chain",
       "textures" : {
          "down" : "chain1",
@@ -1014,7 +1023,7 @@
       "textures" : "cherry_sapling"
    },
    "cherry_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "cherry_shelf"
    },
    "cherry_slab" : {
@@ -1252,6 +1261,10 @@
       "sound" : "stone",
       "textures" : "conduit"
    },
+   "copper_bars" : {
+      "sound" : "copper",
+      "textures" : "copper_bars"
+   },
    "copper_block" : {
       "isotropic" : false,
       "sound" : "copper",
@@ -1261,6 +1274,15 @@
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "copper_bulb"
+   },
+   "copper_chain" : {
+      "carried_textures" : "copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "copper_chain1",
+         "side" : "copper_chain2",
+         "up" : "copper_chain1"
+      }
    },
    "copper_chest" : {
       "isotropic" : false,
@@ -1290,10 +1312,19 @@
       "sound" : "copper_grate",
       "textures" : "copper_grate"
    },
+   "copper_lantern" : {
+      "carried_textures" : "copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "copper_lantern"
+   },
    "copper_ore" : {
       "isotropic" : false,
       "sound" : "stone",
       "textures" : "copper_ore"
+   },
+   "copper_torch" : {
+      "sound" : "wood",
+      "textures" : "copper_torch"
    },
    "copper_trapdoor" : {
       "sound" : "copper",
@@ -1491,7 +1522,7 @@
       }
    },
    "crimson_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "crimson_shelf"
    },
    "crimson_slab" : {
@@ -1559,6 +1590,14 @@
          "up" : "flattened_redsandstone_top"
       }
    },
+   "cut_red_sandstone_double_slab" : {
+      "sound" : "stone",
+      "textures" : {
+         "down" : "cut_red_sandstone_slab_top",
+         "side" : "cut_red_sandstone_slab_side",
+         "up" : "cut_red_sandstone_slab_top"
+      }
+   },
    "cut_red_sandstone_slab" : {
       "sound" : "stone",
       "textures" : {
@@ -1578,6 +1617,14 @@
          "down" : "flattened_sandstone_top",
          "side" : "cut_sandstone",
          "up" : "flattened_sandstone_top"
+      }
+   },
+   "cut_sandstone_double_slab" : {
+      "sound" : "stone",
+      "textures" : {
+         "down" : "cut_sandstone_slab_top",
+         "side" : "cut_sandstone_slab_side",
+         "up" : "cut_sandstone_slab_top"
       }
    },
    "cut_sandstone_slab" : {
@@ -1705,6 +1752,10 @@
          "up" : "dark_oak_log_top"
       }
    },
+   "dark_oak_planks" : {
+      "sound" : "wood",
+      "textures" : "dark_oak_planks"
+   },
    "dark_oak_pressure_plate" : {
       "sound" : "wood",
       "textures" : "dark_oak_planks"
@@ -1714,7 +1765,7 @@
       "textures" : "dark_oak_sapling"
    },
    "dark_oak_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "dark_oak_shelf"
    },
    "dark_oak_slab" : {
@@ -2272,10 +2323,23 @@
       "sound" : "copper",
       "textures" : "exposed_copper"
    },
+   "exposed_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "exposed_copper_bars"
+   },
    "exposed_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "exposed_copper_bulb"
+   },
+   "exposed_copper_chain" : {
+      "carried_textures" : "exposed_copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "exposed_copper_chain1",
+         "side" : "exposed_copper_chain2",
+         "up" : "exposed_copper_chain1"
+      }
    },
    "exposed_copper_chest" : {
       "isotropic" : false,
@@ -2305,6 +2369,11 @@
       "sound" : "copper_grate",
       "textures" : "exposed_copper_grate"
    },
+   "exposed_copper_lantern" : {
+      "carried_textures" : "exposed_copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "exposed_copper_lantern"
+   },
    "exposed_copper_trapdoor" : {
       "sound" : "copper",
       "textures" : "exposed_copper_trapdoor"
@@ -2328,6 +2397,11 @@
       "isotropic" : false,
       "sound" : "copper",
       "textures" : "exposed_cut_copper"
+   },
+   "exposed_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "exposed_lightning_rod"
    },
    "farmland" : {
       "sound" : "gravel",
@@ -2905,6 +2979,10 @@
          "up" : "jungle_log_top"
       }
    },
+   "jungle_planks" : {
+      "sound" : "wood",
+      "textures" : "jungle_planks"
+   },
    "jungle_pressure_plate" : {
       "sound" : "wood",
       "textures" : "jungle_planks"
@@ -2914,7 +2992,7 @@
       "textures" : "jungle_sapling"
    },
    "jungle_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "jungle_shelf"
    },
    "jungle_slab" : {
@@ -3536,7 +3614,7 @@
       }
    },
    "mangrove_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "mangrove_shelf"
    },
    "mangrove_slab" : {
@@ -3613,6 +3691,10 @@
    "mossy_cobblestone_wall" : {
       "sound" : "stone",
       "textures" : "mossy_cobblestone_wall"
+   },
+   "mossy_stone_brick_double_slab" : {
+      "sound" : "stone",
+      "textures" : "mossy_stone_brick_slab"
    },
    "mossy_stone_brick_slab" : {
       "sound" : "stone",
@@ -3749,6 +3831,10 @@
       "sound" : "metal",
       "textures" : "reactor_core"
    },
+   "normal_stone_double_slab" : {
+      "sound" : "stone",
+      "textures" : "normal_stone_slab"
+   },
    "normal_stone_slab" : {
       "sound" : "stone",
       "textures" : "normal_stone_slab"
@@ -3791,12 +3877,16 @@
          "up" : "oak_log_top"
       }
    },
+   "oak_planks" : {
+      "sound" : "wood",
+      "textures" : "oak_planks"
+   },
    "oak_sapling" : {
       "sound" : "grass",
       "textures" : "oak_sapling"
    },
    "oak_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "oak_shelf"
    },
    "oak_slab" : {
@@ -3918,10 +4008,23 @@
       "sound" : "copper",
       "textures" : "oxidized_copper"
    },
+   "oxidized_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "oxidized_copper_bars"
+   },
    "oxidized_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "oxidized_copper_bulb"
+   },
+   "oxidized_copper_chain" : {
+      "carried_textures" : "oxidized_copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "oxidized_copper_chain1",
+         "side" : "oxidized_copper_chain2",
+         "up" : "oxidized_copper_chain1"
+      }
    },
    "oxidized_copper_chest" : {
       "isotropic" : false,
@@ -3951,6 +4054,11 @@
       "sound" : "copper_grate",
       "textures" : "oxidized_copper_grate"
    },
+   "oxidized_copper_lantern" : {
+      "carried_textures" : "oxidized_copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "oxidized_copper_lantern"
+   },
    "oxidized_copper_trapdoor" : {
       "sound" : "copper",
       "textures" : "oxidized_copper_trapdoor"
@@ -3974,6 +4082,11 @@
       "isotropic" : false,
       "sound" : "copper",
       "textures" : "oxidized_cut_copper"
+   },
+   "oxidized_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "oxidized_lightning_rod"
    },
    "packed_ice" : {
       "sound" : "glass",
@@ -4050,7 +4163,7 @@
       "textures" : "pale_oak_sapling"
    },
    "pale_oak_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "pale_oak_shelf"
    },
    "pale_oak_slab" : {
@@ -5080,6 +5193,10 @@
       "sound" : "stone",
       "textures" : "smooth_quartz"
    },
+   "smooth_quartz_double_slab" : {
+      "sound" : "stone",
+      "textures" : "smooth_quartz_slab"
+   },
    "smooth_quartz_slab" : {
       "sound" : "stone",
       "textures" : "smooth_quartz_slab"
@@ -5277,6 +5394,10 @@
          "up" : "spruce_log_top"
       }
    },
+   "spruce_planks" : {
+      "sound" : "wood",
+      "textures" : "spruce_planks"
+   },
    "spruce_pressure_plate" : {
       "sound" : "wood",
       "textures" : "spruce_planks"
@@ -5286,7 +5407,7 @@
       "textures" : "spruce_sapling"
    },
    "spruce_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "spruce_shelf"
    },
    "spruce_slab" : {
@@ -5951,7 +6072,7 @@
       }
    },
    "warped_shelf" : {
-      "sound" : "wood",
+      "sound" : "shelf",
       "textures" : "warped_shelf"
    },
    "warped_slab" : {
@@ -6010,10 +6131,23 @@
       "sound" : "copper",
       "textures" : "copper_block"
    },
+   "waxed_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "copper_bars"
+   },
    "waxed_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "copper_bulb"
+   },
+   "waxed_copper_chain" : {
+      "carried_textures" : "copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "copper_chain1",
+         "side" : "copper_chain2",
+         "up" : "copper_chain1"
+      }
    },
    "waxed_copper_chest" : {
       "isotropic" : false,
@@ -6042,6 +6176,11 @@
    "waxed_copper_grate" : {
       "sound" : "copper_grate",
       "textures" : "copper_grate"
+   },
+   "waxed_copper_lantern" : {
+      "carried_textures" : "copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "copper_lantern"
    },
    "waxed_copper_trapdoor" : {
       "sound" : "copper",
@@ -6076,10 +6215,23 @@
       "sound" : "copper",
       "textures" : "exposed_copper"
    },
+   "waxed_exposed_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "exposed_copper_bars"
+   },
    "waxed_exposed_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "exposed_copper_bulb"
+   },
+   "waxed_exposed_copper_chain" : {
+      "carried_textures" : "exposed_copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "exposed_copper_chain1",
+         "side" : "exposed_copper_chain2",
+         "up" : "exposed_copper_chain1"
+      }
    },
    "waxed_exposed_copper_chest" : {
       "isotropic" : false,
@@ -6109,6 +6261,11 @@
       "sound" : "copper_grate",
       "textures" : "exposed_copper_grate"
    },
+   "waxed_exposed_copper_lantern" : {
+      "carried_textures" : "exposed_copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "exposed_copper_lantern"
+   },
    "waxed_exposed_copper_trapdoor" : {
       "sound" : "copper",
       "textures" : "exposed_copper_trapdoor"
@@ -6133,6 +6290,16 @@
       "sound" : "copper",
       "textures" : "exposed_cut_copper"
    },
+   "waxed_exposed_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "exposed_lightning_rod"
+   },
+   "waxed_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "lightning_rod"
+   },
    "waxed_oxidized_chiseled_copper" : {
       "sound" : "copper",
       "textures" : "oxidized_chiseled_copper"
@@ -6142,10 +6309,23 @@
       "sound" : "copper",
       "textures" : "oxidized_copper"
    },
+   "waxed_oxidized_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "oxidized_copper_bars"
+   },
    "waxed_oxidized_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "oxidized_copper_bulb"
+   },
+   "waxed_oxidized_copper_chain" : {
+      "carried_textures" : "oxidized_copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "oxidized_copper_chain1",
+         "side" : "oxidized_copper_chain2",
+         "up" : "oxidized_copper_chain1"
+      }
    },
    "waxed_oxidized_copper_chest" : {
       "isotropic" : false,
@@ -6175,6 +6355,11 @@
       "sound" : "copper_grate",
       "textures" : "oxidized_copper_grate"
    },
+   "waxed_oxidized_copper_lantern" : {
+      "carried_textures" : "oxidized_copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "oxidized_copper_lantern"
+   },
    "waxed_oxidized_copper_trapdoor" : {
       "sound" : "copper",
       "textures" : "oxidized_copper_trapdoor"
@@ -6199,6 +6384,11 @@
       "sound" : "copper",
       "textures" : "oxidized_cut_copper"
    },
+   "waxed_oxidized_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "oxidized_lightning_rod"
+   },
    "waxed_weathered_chiseled_copper" : {
       "sound" : "copper",
       "textures" : "weathered_chiseled_copper"
@@ -6208,10 +6398,23 @@
       "sound" : "copper",
       "textures" : "weathered_copper"
    },
+   "waxed_weathered_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "weathered_copper_bars"
+   },
    "waxed_weathered_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "weathered_copper_bulb"
+   },
+   "waxed_weathered_copper_chain" : {
+      "carried_textures" : "weathered_copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "weathered_copper_chain1",
+         "side" : "weathered_copper_chain2",
+         "up" : "weathered_copper_chain1"
+      }
    },
    "waxed_weathered_copper_chest" : {
       "isotropic" : false,
@@ -6241,6 +6444,11 @@
       "sound" : "copper_grate",
       "textures" : "weathered_copper_grate"
    },
+   "waxed_weathered_copper_lantern" : {
+      "carried_textures" : "weathered_copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "weathered_copper_lantern"
+   },
    "waxed_weathered_copper_trapdoor" : {
       "sound" : "copper",
       "textures" : "weathered_copper_trapdoor"
@@ -6265,6 +6473,11 @@
       "sound" : "copper",
       "textures" : "weathered_cut_copper"
    },
+   "waxed_weathered_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "weathered_lightning_rod"
+   },
    "weathered_chiseled_copper" : {
       "sound" : "copper",
       "textures" : "weathered_chiseled_copper"
@@ -6274,10 +6487,23 @@
       "sound" : "copper",
       "textures" : "weathered_copper"
    },
+   "weathered_copper_bars" : {
+      "sound" : "copper",
+      "textures" : "weathered_copper_bars"
+   },
    "weathered_copper_bulb" : {
       "isotropic" : false,
       "sound" : "copper_bulb",
       "textures" : "weathered_copper_bulb"
+   },
+   "weathered_copper_chain" : {
+      "carried_textures" : "weathered_copper_chain_carried",
+      "sound" : "chain",
+      "textures" : {
+         "down" : "weathered_copper_chain1",
+         "side" : "weathered_copper_chain2",
+         "up" : "weathered_copper_chain1"
+      }
    },
    "weathered_copper_chest" : {
       "isotropic" : false,
@@ -6307,6 +6533,11 @@
       "sound" : "copper_grate",
       "textures" : "weathered_copper_grate"
    },
+   "weathered_copper_lantern" : {
+      "carried_textures" : "weathered_copper_lantern_carried",
+      "sound" : "lantern",
+      "textures" : "weathered_copper_lantern"
+   },
    "weathered_copper_trapdoor" : {
       "sound" : "copper",
       "textures" : "weathered_copper_trapdoor"
@@ -6330,6 +6561,11 @@
       "isotropic" : false,
       "sound" : "copper",
       "textures" : "weathered_cut_copper"
+   },
+   "weathered_lightning_rod" : {
+      "isotropic" : false,
+      "sound" : "copper",
+      "textures" : "weathered_lightning_rod"
    },
    "web" : {
       "sound" : "web",
