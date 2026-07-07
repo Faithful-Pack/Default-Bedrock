@@ -32,13 +32,22 @@
       "textures": "textures/blocks/poplar_sapling"
     },
     "orange_poplar_leaves": {
-      "textures": "textures/blocks/orange_poplar_leaves"
+      "textures": [
+        "textures/blocks/orange_poplar_leaves",
+        "textures/blocks/orange_poplar_leaves_opaque" 
+      ]
     },
     "red_poplar_leaves": {
-      "textures": "textures/blocks/red_poplar_leaves"
+      "textures": [
+        "textures/blocks/red_poplar_leaves",
+        "textures/blocks/red_poplar_leaves_opaque" 
+      ]
     },
     "yellow_poplar_leaves": {
-      "textures": "textures/blocks/yellow_poplar_leaves"
+      "textures": [
+        "textures/blocks/yellow_poplar_leaves",
+        "textures/blocks/yellow_poplar_leaves_opaque" 
+      ]
     },
     "poplar_shelf": {
       "textures": ["textures/blocks/poplar_shelf"]
@@ -203,6 +212,12 @@
     },
     "shelf_mushroom_large": {
       "textures": "textures/blocks/shelf_mushroom_large"
+    },
+    "straw_bed": {
+      "textures": "textures/blocks/straw_bed"
+    },
+    "straw_bed_particle": {
+      "textures": "textures/particle/straw_bed_particle"
     }
   }
 }

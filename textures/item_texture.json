@@ -44,8 +44,31 @@
         "textures/items/poplar_chest_boat"
       ]
     },
+    "cushion": {
+      "textures": [
+        "textures/items/black_cushion",
+        "textures/items/red_cushion",
+        "textures/items/green_cushion",
+        "textures/items/brown_cushion",
+        "textures/items/blue_cushion",
+        "textures/items/purple_cushion",
+        "textures/items/cyan_cushion",
+        "textures/items/light_gray_cushion",
+        "textures/items/gray_cushion",
+        "textures/items/pink_cushion",
+        "textures/items/lime_cushion",
+        "textures/items/yellow_cushion",
+        "textures/items/light_blue_cushion",
+        "textures/items/magenta_cushion",
+        "textures/items/orange_cushion",
+        "textures/items/white_cushion"
+      ]
+    },
     "red_shrub": {
       "textures": "textures/blocks/red_shrub"
+    },
+    "straw_bed": {
+      "textures": "textures/items/straw_bed"
     }
   }
 }
